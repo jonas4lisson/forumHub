@@ -25,7 +25,7 @@ O projeto tem como finalidade servir como base para sistemas de discussão onlin
 
 ---
 
-⚙️ Como rodar o projeto localmente
+## ⚙️ Como rodar o projeto localmente
 Clone o repositório: git clone https://github.com/seu-usuario/forumhub.git
 
 Configure o banco de dados MySQL:
@@ -57,7 +57,6 @@ Vamos utilizar o Insomnia ou Postman para realizar as requisições.
 Caminho: http://localhost:8080/
 
 ### Login
-
 Rota: POST /login
 
 Body:
@@ -71,7 +70,7 @@ Body:
 Irá retornar um token para que seja utilizado para poder liberar as requisições.
 O token deve ser enviado nas requisições protegidas (sem "") via Header ou Auth > Beaer Token > Token.
 
-### 📌 Funcionalidades
+# 📌 Funcionalidades
 
 ## ✅ Criar tópico
 Rota: POST /topicos
