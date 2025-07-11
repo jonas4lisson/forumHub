@@ -71,10 +71,9 @@ Body:
 Irá retornar um token para que seja utilizado para poder liberar as requisições.
 O token deve ser enviado nas requisições protegidas (sem "") via Header ou Auth > Beaer Token > Token.
 
-###📌 Funcionalidades
+### 📌 Funcionalidades
 
-##✅ Criar tópico
-
+## ✅ Criar tópico
 Rota: POST /topicos
 
 Body:
@@ -89,7 +88,9 @@ Body:
 
 ## Cadastrar curso
 Rota: POST / cursos
+
 ex:
+
 Body:
 ```json
 {
@@ -98,13 +99,11 @@ Body:
 }
 ````
 
-##🔎 Buscar tópico por ID
-
+## 🔎 Buscar tópico por ID
 Rota: GET /topicos/{id}
 Exemplo: GET /topicos/1
 
-##✏️ Atualizar tópico
-
+## ✏️ Atualizar tópico
 Rota: PUT /topicos/{id}
 
 Body:
@@ -115,7 +114,7 @@ Body:
 }
 ````
 
-##❌ Deletar tópico
+## ❌ Deletar tópico
 
 Rota: DELETE /topicos/{id}
 Retorno: 204 No Content
