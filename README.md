@@ -100,6 +100,7 @@ Body:
 
 ## 🔎 Buscar tópico por ID
 Rota: GET /topicos/{id}
+
 Exemplo: GET /topicos/1
 
 ## ✏️ Atualizar tópico
@@ -116,10 +117,11 @@ Body:
 ## ❌ Deletar tópico
 
 Rota: DELETE /topicos/{id}
+
 Retorno: 204 No Content
 
 
-🧠 Autor
+## 🧠 Autor
 Desenvolvido por Jonas Alisson 👨‍💻
 
 
