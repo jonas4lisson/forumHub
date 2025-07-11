@@ -1,8 +1,6 @@
 # ForumHub 🧠💬
 
-ForumHub é uma API REST desenvolvida com **Spring Boot** que simula um sistema de fórum online. 
-Com autenticação JWT e integração ao banco de dados MySQL, permite que usuários registrem tópicos de discussão, façam listagens, atualizações e exclusões, 
-tudo seguindo boas práticas RESTful.
+ForumHub é uma API REST desenvolvida com **Spring Boot** que simula um sistema de fórum online. Com autenticação JWT e integração ao banco de dados MySQL, permite que usuários registrem tópicos de discussão, façam listagens, atualizações e exclusões, tudo seguindo boas práticas RESTful.
 
 ---
 
@@ -61,6 +59,7 @@ Caminho: http://localhost:8080/
 ### Login
 
 Rota: POST /login
+
 Body:
 ```json
 {
@@ -77,6 +76,7 @@ O token deve ser enviado nas requisições protegidas (sem "") via Header ou Aut
 ##✅ Criar tópico
 
 Rota: POST /topicos
+
 Body:
 ```json
 {
